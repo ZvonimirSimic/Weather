@@ -125,7 +125,6 @@ app.MapGet("/api/forecast/{city}", async (
         Temp = first?.temp,
         Description = first?.description ?? "",
         Icon = first?.icon ?? "",
-        RawJson = json
     };
 
     db.Searches.Add(search);
@@ -244,15 +243,6 @@ app.MapGet("/api/weather/location", async (double lat, double lon) =>
 });
 
 // ==========================
-// 🔹 9. Zaštićeni endpoint (JWT)
-// ==========================
-app.MapGet("/api/protected", [Microsoft.AspNetCore.Authorization.Authorize] (ClaimsPrincipal user) =>
-{
-    var username = user.Identity?.Name ?? user.FindFirst("sub")?.Value;
-    return Results.Ok(new { msg = $"Pozdrav {username}" });
-});
-
-// ==========================
-// 🔹 10. Pokreni aplikaciju
+// 🔹 9. Pokreni aplikaciju
 // ==========================
 app.Run();

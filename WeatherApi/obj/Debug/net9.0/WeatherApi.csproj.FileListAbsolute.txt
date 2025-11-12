@@ -135,5 +135,4 @@ C:\Zvone\Zadatak\WeatherApi\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspace
 C:\Zvone\Zadatak\WeatherApi\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Zvone\Zadatak\WeatherApi\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Zvone\Zadatak\WeatherApi\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Zvone\Zadatak\WeatherApi\bin\Debug\net9.0\package-lock.json
-C:\Zvone\Zadatak\WeatherApi\bin\Debug\net9.0\package.json
+C:\Zvone\Zadatak\WeatherApi\obj\Debug\net9.0\WeatherApi.sourcelink.json

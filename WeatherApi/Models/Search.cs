@@ -25,9 +25,6 @@ namespace WeatherApi.Models
         public string Description { get; set; } = "";
         public string Icon { get; set; } = "";
 
-        // Opcionalno pohranjivanje raw JSON-a
-        public string? RawJson { get; set; }
-
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }
